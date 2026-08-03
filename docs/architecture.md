@@ -21,7 +21,7 @@ Measured (baseline bitstream, -O2): loading 1,667 µs = 97.5% of the
 same PIO path measures 1,846 µs — see the measurement notes in
 `results/benchmark_summary.md`.
 
-## After the DMA redesign (my extension)
+## After the DMA redesign
 
 ```
                  AXI4-Lite (GP0): control only
