@@ -1,6 +1,6 @@
 # Architecture
 
-## Baseline (course design)
+## Baseline
 
 ```
                  AXI4-Lite (Zynq GP0)
