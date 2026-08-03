@@ -27,7 +27,7 @@ same PIO path measures 1,846 µs — see the measurement notes in
                  AXI4-Lite (GP0): control only
   Cortex-A9  ──────────────────────────▶  Register file ──┐ reg slot 10: mode/target
       │                                                    ▼
-      │ one MM2S transfer per array              ┌──────── mux (PIO / DMA) ──▶ BRAM0/1 (port 1)
+      │ one MM2S transfer per array           ┌──────── mux (PIO / DMA) ──▶ BRAM0/1 (port 1)
       ▼                                       │
   AXI DMA (MM2S) ──▶ AXI-Stream ──▶ axis_to_bram
       ▲
