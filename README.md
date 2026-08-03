@@ -12,9 +12,9 @@ with bit-exact agreement against a golden reference in all reported hardware run
 
 | Contribution | Where |
 |---|---|
-| AXI-Stream → BRAM receiver module (new RTL) | `rtl/axis_to_bram.v` |
+| AXI-Stream → BRAM receiver module | `rtl/axis_to_bram.v` |
 | PIO/DMA path-select mux + control register design (modifications to course RTL, documented) | `docs/MODIFICATIONS.md` |
-| DMA helper functions: transfer programming, cache-coherency handling, documented integration flow (new C code) | `sw/dma_extension.c` |
+| DMA helper functions: transfer programming, cache-coherency handling, documented integration flow | `sw/dma_extension.c` |
 | System integration: AXI DMA IP, Zynq HP0 port, block-design integration, and interface routing | `docs/architecture.md` |
 | On-board benchmarking, bottleneck profiling, verification | `results/` |
 | Root-cause debugging of a silent DMA failure (length-register truncation) | `docs/debugging_story.md` |
