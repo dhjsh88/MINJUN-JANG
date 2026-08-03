@@ -47,7 +47,7 @@ same PIO path measures 1,846 µs — see the measurement notes in
   read port (port 0) and the cores are unchanged, which is why compute time
   is identical on both paths (41.6 µs).
 
-## Compute core (course design, unmodified)
+## Compute core 
 
 Four parallel MAC lanes; each accumulates node[i] x weight[i] over 4,096
 iterations, one product per clock — BRAM read → 8-bit multiply → 32-bit
