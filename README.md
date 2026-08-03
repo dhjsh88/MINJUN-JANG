@@ -10,14 +10,6 @@ with bit-exact agreement against a golden reference in all reported hardware run
 
 ---
 
-## Attribution and Scope
-
-The baseline design (4-core 8-bit MAC kernel, AXI4-Lite control/register file, BRAM data
-mover) comes from a paid commercial FPGA lecture series. **Course files are not
-redistributed in this repository, in keeping with the course's terms.**
-
-This repository contains only my own contributions:
-
 | Contribution | Where |
 |---|---|
 | AXI-Stream → BRAM receiver module (new RTL) | `rtl/axis_to_bram.v` |
